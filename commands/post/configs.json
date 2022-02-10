@@ -1,0 +1,405 @@
+{
+    "pavlov": {
+        "logo": "img/icons/pavlov.png",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "top_image": "quotation-marks",
+                "text_align": "center",
+                "line_position": null,
+                "colorize_logo": true,
+                "logo_position": "center",
+                "rectangle": false
+            }
+        }
+    },
+    "pp": {
+        "logo": "img/icons/pavlov.png",
+        "operators": [],
+        "name_tag": "pavlov_project",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "colors": [
+                    ["RED_100", "RED_800", "BLACK"],
+                    ["PINK_100", "PINK_800", "BLACK"],
+                    ["PURPLE_100", "PURPLE_800", "BLACK"],
+                    ["INDIGO_100", "INDIGO_800", "BLACK"],
+                    ["LIGHT_BLUE_100", "LIGHT_BLUE_800", "BLACK"],
+                    ["CYAN_100", "CYAN_800", "BLACK"],
+                    ["TEAL_100", "TEAL_800", "BLACK"],
+                    ["LIGHT_GREEN_100", "LIGHT_GREEN_800", "BLACK"],
+                    ["ORANGE_100", "ORANGE_800", "BLACK"]
+                ],
+                "top_image": "quotation-marks",
+                "text_align": "center",
+                "line_position": null,
+                "colorize_logo": true,
+                "logo_position": "center",
+                "rectangle": false
+            }
+        }
+    },
+    "uniud1": {
+        "logo": "img/icons/uniud1.png",
+        "operators": ["1202488697"],
+        "name_tag": false,
+        "text": {
+            "spot": {
+                "colors": [
+                    ["GREY_100", "GREY_900", "WHITE"]
+                ],
+                "top_image": null,
+                "text_align": "center",
+                "text_dim_multiplier": 1,
+                "text_line_len_multiplier": 1,
+                "line_position": null,
+                "colorize_logo": false,
+                "logo_position": "full",
+                "rectangle": false
+            }
+        }
+    },
+    "uniud": {
+        "logo": "img/icons/uniud.png",
+        "operators": [""],
+        "name_tag": "spotted_uniud",
+        "text": {
+            "spot": {
+                "colors": [
+                    ["RED_300", "RED_800", "WHITE"],
+                    ["PINK_300", "PINK_800", "WHITE"],
+                    ["PURPLE_300", "PURPLE_800", "WHITE"],
+                    ["DEEP_PURPLE_300", "DEEP_PURPLE_800", "WHITE"],
+                    ["INDIGO_300", "INDIGO_800", "WHITE"],
+                    ["BLUE_300", "BLUE_800", "WHITE"],
+                    ["LIGHT_BLUE_300", "LIGHT_BLUE_800", "WHITE"],
+                    ["CYAN_300", "CYAN_800", "WHITE"],
+                    ["TEAL_300", "TEAL_800", "WHITE"],
+                    ["GREEN_300", "GREEN_800", "WHITE"],
+                    ["LIGHT_GREEN_300", "LIGHT_GREEN_800", "WHITE"],
+                    ["ORANGE_300", "ORANGE_800", "WHITE"],
+                    ["DEEP_ORANGE_300", "DEEP_ORANGE_800", "WHITE"]
+                ],
+                "top_image": null,
+                "text_align": "center",
+                "line_position": null,
+                "colorize_logo": false,
+                "logo_position": "center",
+                "rectangle": false
+            }
+        }
+    },
+    "fermo": {
+        "logo": "img/icons/unifermo.png",
+        "operators": ["281632008"],
+        "name_tag": "spotted_unifermo",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "top_image": "quotation-marks",
+                "text_align": "center",
+                "line_position": "center",
+                "colorize_logo": false,
+                "logo_position": "center-up",
+                "rectangle": true
+            }
+        }
+    },
+    "fermo1": {
+        "logo": "img/icons/unifermo.png",
+        "public": true,
+        "operators": ["281632008"],
+        "name_tag": "spotted_unifermo",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "top_image": null,
+                "text_align": "left",
+                "line_position": false,
+                "colorize_logo": false,
+                "logo_position": "center",
+                "rectangle": true
+            }
+        }
+    },
+    "fermo2": {
+        "logo": "img/icons/unifermo.png",
+        "public": true,
+        "operators": ["281632008"],
+        "name_tag": "spotted_unifermo",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "colors": [
+                    ["RED_300", "RED_800", "WHITE"],
+                    ["PINK_300", "PINK_800", "WHITE"],
+                    ["PURPLE_300", "PURPLE_800", "WHITE"],
+                    ["DEEP_PURPLE_300", "DEEP_PURPLE_800", "WHITE"],
+                    ["INDIGO_300", "INDIGO_800", "WHITE"],
+                    ["BLUE_300", "BLUE_800", "WHITE"],
+                    ["LIGHT_BLUE_300", "LIGHT_BLUE_800", "WHITE"],
+                    ["CYAN_300", "CYAN_800", "WHITE"],
+                    ["TEAL_300", "TEAL_800", "WHITE"],
+                    ["GREEN_300", "GREEN_800", "WHITE"],
+                    ["LIGHT_GREEN_300", "LIGHT_GREEN_800", "WHITE"],
+                    ["ORANGE_300", "ORANGE_800", "WHITE"],
+                    ["DEEP_ORANGE_300", "DEEP_ORANGE_800", "WHITE"]
+                ],
+                "top_image": null,
+                "text_align": "center",
+                "line_position": null,
+                "colorize_logo": false,
+                "logo_position": "center",
+                "rectangle": false
+            }
+        }
+    },
+    "fermo3": {
+        "logo": "img/icons/unifermo.png",
+        "public": true,
+        "operators": ["281632008"],
+        "name_tag": "spotted_unifermo",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "top_image": null,
+                "text_align": "left",
+                "line_position": "center",
+                "colorize_logo": false,
+                "logo_position": "right-down",
+                "rectangle": false
+            }
+        }
+    },
+    "unipr": {
+        "logo": "img/icons/unipr.png",
+        "operators": [],
+        "name_tag": "spottedunipr",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "colors": [
+                    ["WHITE", "YELLOW_500", "BLACK"]
+                ],
+                "top_image": false,
+                "text_align": "left",
+                "line_position": "center",
+                "colorize_logo": false,
+                "logo_position": "right-down",
+                "rectangle": false
+            }
+        }
+    },
+    "liud_malignani": {
+        "logo": "img/icons/liud-malignani.png",
+        "operators": ["748342910"],
+        "name_tag": false,
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "colors": [
+                    ["GREY_900", "GREY_500", "WHITE"]
+                ],
+                "top_image": "quotation-marks",
+                "text_align": "right",
+                "line_position": "center",
+                "colorize_logo": false,
+                "logo_position": "center-up",
+                "rectangle": false
+            }
+        }
+    },
+    "mari": {
+        "logo": "img/icons/mari.png",
+        "operators": ["622556082", "1302068834", "1221029413"],
+        "name_tag": "spotted_mari",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "colors": [
+                    ["#445c5c", "GREY_300", "WHITE"]
+                ],
+                "top_image": "quotation-marks",
+                "text_align": "center",
+                "line_position": "left",
+                "colorize_logo": false,
+                "logo_position": "center-down",
+                "rectangle": false
+            }
+        }
+    },
+    "marinoni": {
+        "logo": "img/icons/marinoni.png",
+        "operators": ["1123887438"],
+        "name_tag": "spottedmarinoni",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "colors": [
+                    ["LIGHT_GREEN_200", "LIGHT_GREEN_900", "BLACK"]
+                ],
+                "top_image": "quotation-marks",
+                "text_align": "left",
+                "line_position": "center",
+                "colorize_logo": false,
+                "logo_position": "right-up",
+                "rectangle": false
+            }
+        }
+    },
+    "maestro": {
+        "logo": "img/icons/maestro.png",
+        "operators": ["459725844"],
+        "name_tag": "perle_del_maestro",
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "colors": [
+                    ["GREY_700", "GREY_300", "WHITE"]
+                ],
+                "top_image": null,
+                "text_align": "left",
+                "line_position": null,
+                "colorize_logo": false,
+                "logo_position": "right-down",
+                "rectangle": false
+            }
+        }
+    },
+    "maestro1": {
+        "logo": "img/icons/maestro.png",
+        "name_tag": false,
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "colors": [
+                    ["GREEN_100", "GREEN_800", "BLACK"],
+                    ["BLUE_100", "BLUE_800", "BLACK"]
+                ],
+                "top_image": null,
+                "text_align": "center",
+                "line_position": "center",
+                "colorize_logo": false,
+                "logo_position": "center",
+                "rectangle": "t2"
+            }
+        }
+    },
+    "malignani": {
+        "logo": "img/icons/malignani.png",
+        "name_tag": "malignani_spotted",
+        "operators": ["390515385"],
+        "images": {
+            "meme": {
+                "image_scale": [1, 1],
+                "colorize_logo": false,
+                "logo_position": "auto"
+            }
+        },
+        "text": {
+            "spot": {
+                "colors": [
+                    ["GREY_100", "PURPLE_800", "BLACK"]
+                ],
+                "top_image": null,
+                "text_align": "center",
+                "line_position": null,
+                "colorize_logo": false,
+                "logo_position": "center-up",
+                "rectangle": "t2-c"
+            }
+        }
+    },
+    "kitty": {
+        "logo": "img/icons/kitty.png",
+        "name_tag": "Strawkittyuwu",
+        "operators": ["294933278", "722146979"],
+        "guilds": ["-1001414050306", "-520684977"],
+        "text": {
+            "spot": {
+                "colors": [
+                    ["PURPLE_200", "PURPLE_800", "WHITE"]
+                ],
+                "top_image": null,
+                "text_align": "center",
+                "line_position": null,
+                "colorize_logo": false,
+                "logo_position": "center",
+                "rectangle": "t2-c"
+            }
+        }
+    }
+}

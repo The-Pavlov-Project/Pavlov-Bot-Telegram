@@ -1,0 +1,27 @@
+{
+    "beta_command": false,
+    "description": {
+        "eng": "Generate and image from text",
+        "ita": "Genera un immagine dal testo"
+    },
+    "handled_args": {
+        "": {
+            "eng": "A void post or and image if provided ad file",
+            "ita": "Un post vuoto o un immagine se e' inviata come file"
+        },
+        "text": {
+            "eng": "The text of the post",
+            "ita": "Il testo del post"
+        }
+    },
+    "handled_params": {
+        "-l": {
+            "eng": "List all the templates",
+            "ita": "Lista di tutti i template"
+        },
+        "-t": {
+            "eng": "Use a specific template",
+            "ita": "Usa un template specifico"
+        }
+    }
+}

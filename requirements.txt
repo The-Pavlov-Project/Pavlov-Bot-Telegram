@@ -1,0 +1,4 @@
+pydantic==1.9.0
+aiogram==2.19
+pillow==9.0.1
+numpy
