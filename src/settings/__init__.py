@@ -20,6 +20,7 @@ class SettingModule(SettingsLoaderModel):
     CONFIGURATIONS_MODEL_FILENAME = 'secrets.json'
 
     token: str = ""
+    proxy: str = ""
 
 
 setting_module = SettingModule()

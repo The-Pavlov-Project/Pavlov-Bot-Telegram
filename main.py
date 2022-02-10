@@ -6,7 +6,7 @@ from commands.post.modules.paginator import Paginator
 from commands.post.modules.configs import Configs
 
 setup_logger()
-bot = Bot(token=setting_module.token)
+bot = Bot(token=setting_module.token, proxy=setting_module.token)
 dp = Dispatcher(bot)
 
 
