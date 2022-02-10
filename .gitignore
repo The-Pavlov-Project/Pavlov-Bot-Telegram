@@ -1,4 +1,7 @@
+/.idea/
 /venv/
 
 secrets.json
 secrets.test.json
+
+*.pyc
