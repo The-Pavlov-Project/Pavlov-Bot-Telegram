@@ -54,7 +54,7 @@
     },
     "uniud1": {
         "logo": "img/icons/uniud1.png",
-        "operators": ["1202488697"],
+        "operators": [""],
         "name_tag": false,
         "text": {
             "spot": {
@@ -74,7 +74,7 @@
     },
     "uniud": {
         "logo": "img/icons/uniud.png",
-        "operators": [""],
+        "operators": ["1202488697"],
         "name_tag": "spotted_uniud",
         "text": {
             "spot": {
