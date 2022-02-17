@@ -1,4 +1,6 @@
+import asyncio
 import json
+import os
 from aiogram import Bot, Dispatcher, executor, types
 from src.settings import setting_module, setup_logger
 
@@ -6,7 +8,7 @@ from commands.post.modules.paginator import Paginator
 from commands.post.modules.configs import Configs
 
 setup_logger()
-bot = Bot(token=setting_module.token, proxy=setting_module.proxy)
+bot = Bot(token=os.environ.get('TOKEN'))
 dp = Dispatcher(bot)
 
 
@@ -46,6 +48,18 @@ async def post_generator(message: types.Message):
         await message.answer_document(img)
     else:
         await message.answer_photo(img)
+
+
+async def handle_event(event):
+    """AWS Lambda handler wrapper"""
+    Bot.set_current(dp.bot)
+    update = types.Update.to_object(event)
+    await dp.process_update(update)
+
+
+def lambda_handler(event, context):
+    """AWS Lambda handler"""
+    return asyncio.get_event_loop().run_until_complete(handle_event(event))
 
 
 if __name__ == '__main__':
