@@ -1,13 +1,12 @@
 import asyncio
 import json
+import os
 from aiogram import Bot, Dispatcher, executor, types
-from settings import setting_module, setup_logger
 
 from commands.post.modules.paginator import Paginator
 from commands.post.modules.configs import Configs
 
-setup_logger()
-bot = Bot(token=setting_module.token)
+bot = Bot(token=os.getenv('TOKEN'))
 dp = Dispatcher(bot)
 
 
@@ -62,4 +61,4 @@ def lambda_handler(event, context):
 
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    executor.start_polling(dp)
