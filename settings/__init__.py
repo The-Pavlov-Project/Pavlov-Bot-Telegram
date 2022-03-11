@@ -1,5 +1,7 @@
 import json
 import logging.config
+import os
+
 from .models import SettingsLoaderModel
 
 
@@ -19,7 +21,7 @@ class SettingModule(SettingsLoaderModel):
 
     CONFIGURATIONS_MODEL_FILENAME = 'secrets.json'
 
-    token: str = ""
+    token: str = os.getenv('TOKEN')
     proxy: str = ""
 
 

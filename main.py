@@ -1,14 +1,13 @@
 import asyncio
 import json
-import os
 from aiogram import Bot, Dispatcher, executor, types
-from src.settings import setting_module, setup_logger
+from settings import setting_module, setup_logger
 
 from commands.post.modules.paginator import Paginator
 from commands.post.modules.configs import Configs
 
 setup_logger()
-bot = Bot(token=os.environ.get('TOKEN'))
+bot = Bot(token=setting_module.token)
 dp = Dispatcher(bot)
 
 
