@@ -15,6 +15,11 @@ with open(FILE_CONFIG_DIR, 'r') as f:
     CONFIG_DATA = json.loads(f.read())
 
 
+@dp.message_handler(commands=['id'])
+async def post_generator(message: types.Message):
+    await message.answer(f'{message.from_user.id}')
+
+
 @dp.message_handler(commands=['spot', 'post'])
 async def post_generator(message: types.Message):
     """
